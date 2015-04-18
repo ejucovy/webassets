@@ -75,6 +75,12 @@ The environment supports the following configuration options:
 
 .. autoattribute:: webassets.env.Environment.url_mapping
 
+To configure your environment's options, set the attributes on the instantiated environment object:
+
+.. code-block:: python
+
+    environment.manifest = "cache"
+    environment.debug = True
 
 Filter configuration
 ====================
